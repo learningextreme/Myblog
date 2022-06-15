@@ -129,7 +129,7 @@ author:
       url: "https://github.com/learningextreme"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/learningextreme"
+      url: "https://instagram.com/learningextreme"
 
 # Site Footer
 footer:
