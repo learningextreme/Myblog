@@ -1,6 +1,10 @@
 ---
-layout: post
-title:  "First Post"
+title:  "My Frist Post"
+date:   2022-06-15
+layout: single
+author_profile: true
+comments: true
+tags: [bash, linux, command]
 ---
 
 Working with Pages To better organize all of your pages you can centralize them into a single location similar to posts and collections.
