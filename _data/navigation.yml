@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "Wireless"
-    url: /year-archive/
+    url: /wireless/
   - title: "Wire"
-    url: /sitemap/
+    url: /wire/
   - title: "WAN"
-    url: /collection-archive/
+    url: /wan/
   - title: "Data Center"
-    url: /sitemap/
+    url: /dc/
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /about/
