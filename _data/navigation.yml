@@ -2,9 +2,11 @@
 main:
   - title: "Wireless"
     url: /year-archive/
+  - title: "Wire"
+    url: /sitemap/
   - title: "WAN"
     url: /collection-archive/
-  - title: "Data Cemter"
+  - title: "Data Center"
     url: /sitemap/
   - title: "About"
     url: https://mmistakes.github.io/minimal-mistakes/about/
