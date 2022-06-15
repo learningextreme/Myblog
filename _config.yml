@@ -108,8 +108,8 @@ analytics:
 author:
   name             : "Karthikeyan Palani"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "I am fastinated about Wireless"
+  location         : "Chennai, IN"
   email            : "learningexterem@outlook.com"
   links:
     - label: "Email"
@@ -129,7 +129,7 @@ author:
       url: "https://github.com/learningextreme"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      # url: "https://instagram.com/learningextreme"
 
 # Site Footer
 footer:
@@ -142,7 +142,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/carthikvp"
+      url: "https://www.linkedin.com/in/learningextreme"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
