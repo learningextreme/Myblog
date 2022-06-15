@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "Wireless"
-    url: /wireless/
+    url: /Wireless/
   - title: "Wire"
-    url: /wire/
+    url: /Wire/
   - title: "WAN"
-    url: /wan/
+    url: /Wan/
   - title: "Data Center"
-    url: /dc/
+    url: /Dc/
   - title: "About"
     url: /About/

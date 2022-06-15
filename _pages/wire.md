@@ -5,5 +5,4 @@ permalink: /Wire/
 comments: true
 author_profile: true
 ---
-
 Wire testing
