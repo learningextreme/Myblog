@@ -17,10 +17,6 @@ classes: wide
 permalink: /About/
 ---
 
-<p align="right">
-![Me]]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg)
-</p>
-
 <figure style="width: 25%" class="align-right">
   <img src="/assets/images/me.jpg" alt="me">
 </figure>

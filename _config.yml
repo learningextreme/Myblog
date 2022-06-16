@@ -286,6 +286,7 @@ defaults:
       path: ""
       type: posts
     values:
+      images: true
       layout: single
       author_profile: true
       show_date: true
