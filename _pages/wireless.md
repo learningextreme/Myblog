@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Wireless1"
+title: "Wireless"
 permalink: /Wireless/
 comments: true
 author_profile: true
