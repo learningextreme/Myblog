@@ -12,5 +12,7 @@ It is another way of transmitting focused energy preferentially towards a client
 
 ![TxBF](./images/txbf.png)
 
+<img src="/assets/images/txbf.png" alt="txbf">
+
 
 Either device must support TxBeamforming to squeeze out the full potential of the feature. Preferably the AP must do MU-MIMO or MU-TxBF to have TxBF to do with multiple clients. Wi-Fi 5 and Wi-Fi 6 support max four and max eight, respectively.
