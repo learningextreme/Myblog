@@ -23,7 +23,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Learning Extreme">
 <meta property="og:title" content="Micro Loop">
-<meta property="og:url" content="http://localhost:4000/micro-loop/">
+<meta property="og:url" content="http://localhost:4000/MiniTest/micro-loop/">
 
 
   <meta property="og:description" content="Loop occurrence is a common issue at Layer two and three. Let us focus on layer three in this article. Routing loops can get identified when we try to ping the destination by receiving the ICMP message, “packet expired in transit”.">
@@ -45,7 +45,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/micro-loop/">
+<link rel="canonical" href="http://localhost:4000/MiniTest/micro-loop/">
 
 
 
@@ -56,7 +56,7 @@
     
       "@type": "Person",
       "name": "Karthikeyan Palani",
-      "url": "http://localhost:4000/"
+      "url": "http://localhost:4000/MiniTest/"
     
   }
 </script>
@@ -71,7 +71,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Learning Extreme Feed">
+  <link href="/MiniTest/feed.xml" type="application/atom+xml" rel="alternate" title="Learning Extreme Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -82,7 +82,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/MiniTest/assets/css/main.css">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
@@ -112,22 +112,22 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/88x88.png" alt="Learning Extreme"></a>
+          <a class="site-logo" href="/MiniTest/"><img src="/MiniTest/assets/images/88x88.png" alt="Learning Extreme"></a>
         
-        <a class="site-title" href="/">
+        <a class="site-title" href="/MiniTest/">
           Learning Extreme
           <span class="site-subtitle">Simply Enlightened</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/Wireless/">Wireless</a>
+              <a href="/MiniTest/Wireless/">Wireless</a>
             </li><li class="masthead__menu-item">
-              <a href="/Wire/">Wire</a>
+              <a href="/MiniTest/Wire/">Wire</a>
             </li><li class="masthead__menu-item">
-              <a href="/Wan/">WAN</a>
+              <a href="/MiniTest/Wan/">WAN</a>
             </li><li class="masthead__menu-item">
-              <a href="/Dc/">Data Center</a>
+              <a href="/MiniTest/Dc/">Data Center</a>
             </li><li class="masthead__menu-item">
-              <a href="/About/">About</a>
+              <a href="/MiniTest/About/">About</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -158,15 +158,15 @@
 
   
     <div class="author__avatar">
-      <a href="http://localhost:4000/">
-        <img src="/assets/images/bio-photo.png" alt="Karthikeyan Palani" itemprop="image" class="u-photo">
+      <a href="http://localhost:4000/MiniTest/">
+        <img src="/MiniTest/assets/images/bio-photo.png" alt="Karthikeyan Palani" itemprop="image" class="u-photo">
       </a>
     </div>
   
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Karthikeyan Palani</a>
+      <a class="u-url" rel="me" href="http://localhost:4000/MiniTest/" itemprop="url">Karthikeyan Palani</a>
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
@@ -286,7 +286,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/micro-loop/" class="u-url" itemprop="url">Micro Loop
+            <a href="http://localhost:4000/MiniTest/micro-loop/" class="u-url" itemprop="url">Micro Loop
 </a>
           </h1>
           
@@ -319,7 +319,7 @@
 
 <p>Let’s have a simple topology to understand it better.</p>
 
-<p><img src="http://localhost:4000/assets/images/neighbor.png" alt="Neighbor" /></p>
+<p><img src="http://localhost:4000/MiniTest/assets/images/neighbor.png" alt="Neighbor" /></p>
 
 <p class="text-justify">The router “RD” has a forwarding entry point to the neighbor router “RC” to reach the segment “Y”, presume that “RC” lost the connectivity to segment “Y”, which is on in it. However, there is an update coming from “RD” (the entire route database), “RC” sees that there is the path to reach the segment “Y” through the neighbor router “RD”; therefore, “RC” will update its routing table accordingly. “RD” had learnt this update from “RC” in the earlier route exchange process. Let’s see the issue here, A datagram coming from the Segment “X” to “Y” has to go through “RD” and “RC”. Hence, “RD” will forward the datagram to “RC”. “RC” will send it back to “RD” because “RC” believes the segment “Y” can be reachable through the neighbor “RD” it goes on and on until the TTL expires.</p>
 
@@ -327,7 +327,7 @@
 
 <p>Topology explanation:</p>
 
-<p><img src="http://localhost:4000/assets/images/ospf.png" alt="Topology" /></p>
+<p><img src="http://localhost:4000/MiniTest/assets/images/ospf.png" alt="Topology" /></p>
 
 <p class="text-justify">Five routers connected each other in the topology; the green dotted circles illustrate the actual route path; the blue dotted circle shows an alternate route path in case of link/router has broken.</p>
 
@@ -360,18 +360,18 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Micro+Loop%20http%3A%2F%2Flocalhost%3A4000%2Fmicro-loop%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Micro+Loop%20http%3A%2F%2Flocalhost%3A4000%2FMiniTest%2Fmicro-loop%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fmicro-loop%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FMiniTest%2Fmicro-loop%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fmicro-loop%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FMiniTest%2Fmicro-loop%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/channel-bonding/" class="pagination--pager" title="Channel Bonding
+      <a href="/MiniTest/channel-bonding/" class="pagination--pager" title="Channel Bonding
 ">Previous</a>
     
     
@@ -399,7 +399,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/channel-bonding/" rel="permalink">Channel Bonding
+        <a href="/MiniTest/channel-bonding/" rel="permalink">Channel Bonding
 </a>
       
     </h2>
@@ -438,7 +438,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/beamforming/" rel="permalink">Transmit Beamforming TxBF
+        <a href="/MiniTest/beamforming/" rel="permalink">Transmit Beamforming TxBF
 </a>
       
     </h2>
@@ -510,7 +510,7 @@
     
 
     
-      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+      <li><a href="/MiniTest/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
     
   </ul>
 </div>
@@ -521,7 +521,7 @@
     </div>
 
     
-  <script src="/assets/js/main.min.js"></script>
+  <script src="/MiniTest/assets/js/main.min.js"></script>
 
 
 

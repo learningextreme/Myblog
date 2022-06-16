@@ -18,7 +18,7 @@ permalink: /About/
 ---
 
 <p align="right">
-<img src="/assets/images/me.jpg" alt="me"> 
+![Me]]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg)
 </p>
 
 <figure style="width: 25%" class="align-right">
