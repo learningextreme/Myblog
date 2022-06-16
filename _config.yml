@@ -286,14 +286,12 @@ defaults:
       path: ""
       type: posts
     values:
-      images: true
       layout: single
       author_profile: true
       show_date: true
       read_time: true
       comments: true #true
       share: true
-      
       related: true
       
 
