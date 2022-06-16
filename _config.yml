@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/learningextreme"
+      # url: "https://github.com/learningextreme"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/learningextreme"
@@ -136,7 +136,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/carthikvp"
+      url: "https://twitter.com/learningextreme"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -294,5 +294,6 @@ defaults:
       comments: true #true
       share: true
       related: true
+      toc: true
 
 theme: jekyll-theme-cayman
