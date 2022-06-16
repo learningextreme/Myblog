@@ -11,7 +11,7 @@ comments: true
 It is another way of transmitting focused energy preferentially towards a client to have better performance and throughput. Technically it is very effective if the client is not too farther away. A wireless client meant to be mobile but, it is very effective if it is stationed wirelessly (IoTs). Does IoT need more throughput than user device? Of course, they may not need more throughput; however, they need to be in line with AP to send constant data if the IoT is like a camera or kiosk in the public malls.
 {: .text-justify}
 
-![TXBF](assets/images/txbf.png)
+![TXBF](https://github.com/learningextreme/MiniTest/blob/e7cd5fb893ff235926b255eaad5cd550e729c70a/assets/images/txbf.png)
 
 Either device must support TxBeamforming to squeeze out the full potential of the feature. Preferably the AP must do MU-MIMO or MU-TxBF to have TxBF to do with multiple clients. Wi-Fi 5 and Wi-Fi 6 support max four and max eight, respectively.
 {: .text-justify}
