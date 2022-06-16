@@ -283,9 +283,10 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "assets/images"
       type: posts
     values:
+      images: true
       layout: single
       author_profile: true
       read_time: true
