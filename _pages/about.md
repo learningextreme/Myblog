@@ -17,6 +17,9 @@ classes: wide
 permalink: /About/
 ---
 
+<p align="right">
+<img src="/assets/images/me.jpg" alt="me"> 
+</p>
 
 <figure style="width: 25%" class="align-right">
   <img src="/assets/images/me.jpg" alt="me">
