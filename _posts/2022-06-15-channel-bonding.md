@@ -1,0 +1,18 @@
+---
+title:  "Channel Bonding"
+date:   2022-06-15
+layout: single
+author_profile: true
+comments: true
+---
+
+
+It is a myth that channel bonding brings tremendous coverage than regular channelization. Channel bonding gives considerably little lesser coverage than normal channelization. So, what is the advantage of channel bonding? It conspicuously provides better performance and better throughput. Rolling up the coverage area inward a bit; hence, it escapes from interference which helps hugely from the client-side for connectivity, performance, and throughput.  
+{: .text-justify}
+
+![Channel]({{ site.url }}{{ site.baseurl }}/assets/images/channel-1.png) {: .full}
+
+Channel bonding is configurable by taking two adjacent channels. One of the channels will be the primary channel used for the management and the data transmission. The secondary channel used wholly for data transmission. If the clients reside in a prime channel, the performance and throughput slightly get blunt. Also, it non-predictable not to get there. It is always advisable to have 80MHz or 160MHz channel bonding. However, The enterprise setup doesn’t accommodate 160MHz channel bonding. Ask us why. We are more than happy to assist you in designing the solution for your hassle-free usage. 
+{: .text-justify}
+
+![CB]({{ site.url }}{{ site.baseurl }}/assets/images/channel_bonding.png) {: .full}
