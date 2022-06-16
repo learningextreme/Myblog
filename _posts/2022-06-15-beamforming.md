@@ -6,7 +6,6 @@ author_profile: true
 comments: true
 ---
 
-## Transmit Beamforming TxBF
 
 It is another way of transmitting focused energy preferentially towards a client to have better performance and throughput. Technically it is very effective if the client is not too farther away. A wireless client meant to be mobile but, it is very effective if it is stationed wirelessly (IoTs). Does IoT need more throughput than user device? Of course, they may not need more throughput; however, they need to be in line with AP to send constant data if the IoT is like a camera or kiosk in the public malls.
 {: .text-justify}

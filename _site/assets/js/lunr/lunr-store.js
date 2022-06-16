@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Transmit Beamforming TxBF",
-        "excerpt":"Transmit Beamforming TxBF It is another way of transmitting focused energy preferentially towards a client to have better performance and throughput. Technically it is very effective if the client is not too farther away. A wireless client meant to be mobile but, it is very effective if it is stationed...","categories": [],
+        "excerpt":"It is another way of transmitting focused energy preferentially towards a client to have better performance and throughput. Technically it is very effective if the client is not too farther away. A wireless client meant to be mobile but, it is very effective if it is stationed wirelessly (IoTs). Does...","categories": [],
         "tags": [],
         "url": "/beamforming/",
         "teaser": null
