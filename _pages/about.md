@@ -18,7 +18,14 @@ permalink: /About/
 ---
 
 
- ![me]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg) {: .full}
+ ![me]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg)
+
+ <img
+  align="right"
+  width="100"
+  height="100"
+  src="{{ site.url }}{{ site.baseurl }}/assets/images/me.jpg"
+>
 
 
 <br>
