@@ -17,10 +17,7 @@ classes: wide
 permalink: /About/
 ---
 
-<figure style="width: 25%" class="align-right">
-  <img src="/assets/images/me.jpg" alt="me">
-</figure>
-
+![me]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg){: .align-right}
 <p>  
 Welcome to my realm!
 <br>
