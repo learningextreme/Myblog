@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Transmit Beamforming TxBF - Learning Extreme</title>
-<meta name="description" content="It is another way of transmitting focused energy preferentially towards a client to have better performance and throughput. Technically it is very effective if the client is not too farther away. A wireless client meant to be mobile but, it is very effective if it is stationed wirelessly (IoTs). Does IoT need more throughput than user device? Of course, they may not need more throughput; however, they need to be in line with AP to send constant data if the IoT is like a camera or kiosk in the public malls.">
+<!-- begin _includes/seo.html --><title>Micro Loop - Learning Extreme</title>
+<meta name="description" content="Loop occurrence is a common issue at Layer two and three. Let us focus on layer three in this article. Routing loops can get identified when we try to ping the destination by receiving the ICMP message, “packet expired in transit”.">
 
 
   <meta name="author" content="Karthikeyan Palani">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Learning Extreme">
-<meta property="og:title" content="Transmit Beamforming TxBF">
-<meta property="og:url" content="http://localhost:4000/MiniTest/beamforming/">
+<meta property="og:title" content="Micro Loop">
+<meta property="og:url" content="http://localhost:4000/MiniTest/wire/micro-loop/">
 
 
-  <meta property="og:description" content="It is another way of transmitting focused energy preferentially towards a client to have better performance and throughput. Technically it is very effective if the client is not too farther away. A wireless client meant to be mobile but, it is very effective if it is stationed wirelessly (IoTs). Does IoT need more throughput than user device? Of course, they may not need more throughput; however, they need to be in line with AP to send constant data if the IoT is like a camera or kiosk in the public malls.">
+  <meta property="og:description" content="Loop occurrence is a common issue at Layer two and three. Let us focus on layer three in this article. Routing loops can get identified when we try to ping the destination by receiving the ICMP message, “packet expired in transit”.">
 
 
 
@@ -45,7 +45,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/MiniTest/beamforming/">
+<link rel="canonical" href="http://localhost:4000/MiniTest/wire/micro-loop/">
 
 
 
@@ -277,8 +277,8 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Transmit Beamforming TxBF">
-    <meta itemprop="description" content="It is another way of transmitting focused energy preferentially towards a client to have better performance and throughput. Technically it is very effective if the client is not too farther away. A wireless client meant to be mobile but, it is very effective if it is stationed wirelessly (IoTs). Does IoT need more throughput than user device? Of course, they may not need more throughput; however, they need to be in line with AP to send constant data if the IoT is like a camera or kiosk in the public malls.">
+    <meta itemprop="headline" content="Micro Loop">
+    <meta itemprop="description" content="Loop occurrence is a common issue at Layer two and three. Let us focus on layer three in this article. Routing loops can get identified when we try to ping the destination by receiving the ICMP message, “packet expired in transit”.">
     <meta itemprop="datePublished" content="2022-06-15T00:00:00+05:30">
     
 
@@ -286,7 +286,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/MiniTest/beamforming/" class="u-url" itemprop="url">Transmit Beamforming TxBF
+            <a href="http://localhost:4000/MiniTest/wire/micro-loop/" class="u-url" itemprop="url">Micro Loop
 </a>
           </h1>
           
@@ -310,7 +310,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          2 minute read
         
       </span>
     
@@ -322,11 +322,31 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p class="text-justify">It is another way of transmitting focused energy preferentially towards a client to have better performance and throughput. Technically it is very effective if the client is not too farther away. A wireless client meant to be mobile but, it is very effective if it is stationed wirelessly (IoTs). Does IoT need more throughput than user device? Of course, they may not need more throughput; however, they need to be in line with AP to send constant data if the IoT is like a camera or kiosk in the public malls.</p>
+        <p class="text-justify">Loop occurrence is a common issue at Layer two and three. Let us focus on layer three in this article. Routing loops can get identified when we try to ping the destination by receiving the ICMP message, “packet expired in transit”.</p>
 
-<p><img src="http://localhost:4000/MiniTest/assets/images/txbf.png" alt="TxBF" class="align-center" /></p>
+<p>Let’s have a simple topology to understand it better.</p>
 
-<p class="text-justify">Either device must support TxBeamforming to squeeze out the full potential of the feature. Preferably the AP must do MU-MIMO or MU-TxBF to have TxBF to do with multiple clients. Wi-Fi 5 and Wi-Fi 6 support max four and max eight, respectively.</p>
+<p><img src="http://localhost:4000/MiniTest/assets/images/neighbor.png" alt="Neighbor" class="align-center" /></p>
+
+<p class="text-justify">The router “RD” has a forwarding entry point to the neighbor router “RC” to reach the segment “Y”, presume that “RC” lost the connectivity to segment “Y”, which is on in it. However, there is an update coming from “RD” (the entire route database), “RC” sees that there is the path to reach the segment “Y” through the neighbor router “RD”; therefore, “RC” will update its routing table accordingly. “RD” had learnt this update from “RC” in the earlier route exchange process. Let’s see the issue here, A datagram coming from the Segment “X” to “Y” has to go through “RD” and “RC”. Hence, “RD” will forward the datagram to “RC”. “RC” will send it back to “RD” because “RC” believes the segment “Y” can be reachable through the neighbor “RD” it goes on and on until the TTL expires.</p>
+
+<p class="text-justify">The duration of this problem may depend on the protocol that is in use. RIP will rip us into two and, OSPF will tackle by itself with its intelligence. The concern while the problem is surfacing what happened to the sensitive data. How it occurs in the OSPF, let’s take this topology.</p>
+
+<p>Topology explanation:</p>
+
+<p><img src="http://localhost:4000/MiniTest/assets/images/ospf.png" alt="Topology" class="align-center" /></p>
+
+<p class="text-justify">Five routers connected each other in the topology; the green dotted circles illustrate the actual route path; the blue dotted circle shows an alternate route path in case of link/router has broken.</p>
+
+<p class="text-justify">It means, “RA” -&gt; “RB”, “RB” -&gt; “RC”, “RC” -&gt; “RD”, “RD” -&gt; “RE”, and “RE” -&gt; “RA”.</p>
+
+<p class="text-justify">Assume “RA” lost its link that goes to “RB”, “RA” will switch to its alternate path to reach “RB“ through “RE”, so far “RE” knows to orbit to “RB” through “RA”. In this instance, the datagram will get ping ponged between “RE” and “RA”. However, this loop will get mitigated by the OSPF protocol itself because of the trigger update feature. However, there is a loop for some microseconds, which is called “micro-loop”.</p>
+
+<p class="text-justify">Why do we need to concern about it, when it is going to surface for a few microseconds?</p>
+
+<p class="text-justify">When Smart-city CCTV camera data goes back to the Media Server. When healthcare medical instruments communicating with one another.</p>
+
+<p class="text-justify">It is important give thought about it!</p>
 
         
       </section>
@@ -334,6 +354,21 @@
       <footer class="page__meta">
         
         
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/MiniTest/categories/#wire" class="page__taxonomy-item p-category" rel="tag">Wire</a>
+    
+    </span>
+  </p>
 
 
         
@@ -347,22 +382,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Transmit+Beamforming+TxBF%20http%3A%2F%2Flocalhost%3A4000%2FMiniTest%2Fbeamforming%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Micro+Loop%20http%3A%2F%2Flocalhost%3A4000%2FMiniTest%2Fwire%2Fmicro-loop%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FMiniTest%2Fbeamforming%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FMiniTest%2Fwire%2Fmicro-loop%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FMiniTest%2Fbeamforming%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FMiniTest%2Fwire%2Fmicro-loop%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/MiniTest/wireless/channel-bonding/" class="pagination--pager" title="Channel Bonding
+">Previous</a>
     
     
-      <a href="/MiniTest/channel-bonding/" class="pagination--pager" title="Channel Bonding
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -386,53 +421,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/MiniTest/micro-loop/" rel="permalink">Micro Loop
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2022-06-15T00:00:00+05:30">June 15, 2022</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          2 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Loop occurrence is a common issue at Layer two and three. Let us focus on layer three in this article. Routing loops can get identified when we try to ping t...</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/MiniTest/channel-bonding/" rel="permalink">Channel Bonding
+        <a href="/MiniTest/wireless/channel-bonding/" rel="permalink">Channel Bonding
 </a>
       
     </h2>
@@ -465,6 +454,52 @@
 
 
     <p class="archive__item-excerpt" itemprop="description">It is a myth that channel bonding brings tremendous coverage than regular channelization. Channel bonding gives considerably little lesser coverage than norm...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/MiniTest/wireless/beamforming/" rel="permalink">Transmit Beamforming TxBF
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-06-15T00:00:00+05:30">June 15, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">It is another way of transmitting focused energy preferentially towards a client to have better performance and throughput. Technically it is very effective ...</p>
   </article>
 </div>
 
