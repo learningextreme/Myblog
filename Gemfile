@@ -28,3 +28,9 @@ gem "minimal-mistakes-jekyll"
 group :jekyll_plugins do
 end
 gem "webrick", "~> 1.7"
+
+gem "sdbm", "~> 1.0"
+
+gem "net-telnet", "~> 0.2.0"
+
+gem "xmlrpc", "~> 0.3.2"
