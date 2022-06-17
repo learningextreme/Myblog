@@ -14,7 +14,7 @@ sidebar:
     text: ""
     nav: my-sidebar
 classes: wide
-permalink: /About/
+permalink: /about/
 ---
 
 ![me]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg){: .align-right}
