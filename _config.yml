@@ -98,10 +98,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : " # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "UA-232336964-1"
-    anonymize_ip         : true # true, false (default)
+    tracking_id          : 
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
