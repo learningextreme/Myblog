@@ -12,34 +12,34 @@ excerpt: >
   My notes are for your referrence<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
 feature_row:
-  - image_path: /assets/images/homewireless.jpg
+  - image_path: /assets/images/homewireless.png
     alt: "wireless"
     title: "Wireless"
     excerpt: "Understand the wireless technolgy in a minute reading "
     url: "https://learningextreme.com/wireless"
     btn_class: "btn--primary"
     btn_label: "Wireless"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/homewire.png
     alt: "fully responsive"
     title: "Responsive layouts"
     excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
     url: "https://learningextreme.com/wire"
     btn_class: "btn--primary"
     btn_label: "Wire"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/homewan.png
     alt: "100% free"
     title: "100% free"
     excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
     url: "https://learningextreme.com/wan"
     btn_class: "btn--primary"
     btn_label: "WAN"      
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "https://learningextreme.com/dc"
-    btn_class: "btn--primary"
-    btn_label: "Data Center"    
+#  - image_path: /assets/images/mm-free-feature.png
+ #   alt: "100% free"
+ #   title: "100% free"
+ #   excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+ #   url: "https://learningextreme.com/dc"
+ #   btn_class: "btn--primary"
+ #   btn_label: "Data Center"    
 ---
 
 {% include feature_row %}
