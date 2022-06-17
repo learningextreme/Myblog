@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/homebg.jpg
   actions:
-   - label: <i class="fa-duotone fa-circle-nodes"></i>Connect me"  
+   - label: "<i class="fa-thin fa-diagram-project"></i> Connect me"
      url: "https://learningextreme.com/about/"
 excerpt: >
   I’m stashing my references for your benefit, feel free to access and comment for correction<br />
