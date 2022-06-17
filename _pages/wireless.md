@@ -1,7 +1,7 @@
 ---
 layout: category
 title: ""
-permalink: /categories/Wireless/
+permalink: /wireless/
 comments: true
 author_profile: true
 taxonomy: wirelss
