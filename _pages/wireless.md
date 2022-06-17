@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: categories
 title: "Wireless"
 permalink: /Wireless/
 comments: true
