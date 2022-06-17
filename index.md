@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/homebg.jpg
   actions:
-   - label: "<i class='fa-solid fa-link'></i>Connect me"
+   - label: <i class="fa-duotone fa-circle-nodes"></i>Connect me"  
      url: "https://learningextreme.com/about/"
 excerpt: >
   I’m stashing my references for your benefit, feel free to access and comment for correction<br />
@@ -15,7 +15,7 @@ feature_row:
   - image_path: /assets/images/homewireless.png
     alt: "wireless"
     title: "On the air"
-    excerpt: "Wireless networks link devices via radio waves, but how they function is typically a mystery"
+    excerpt: "Wireless networks link devices via radio waves, but how they function is a mystery"
     url: "https://learningextreme.com/wireless"
     btn_class: "btn--primary"
     btn_label: "Wireless"
