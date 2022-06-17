@@ -1,8 +1,9 @@
 ---
-layout: categories
+layout: category
 title: ""
-permalink: /Wireless/
+permalink: /categories/Wireless/
 comments: true
 author_profile: true
-category: Wireless
+taxonomy: wirelss
+entries_layout: # list (default), grid
 ---
