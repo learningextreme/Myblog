@@ -9,27 +9,27 @@ header:
    - label: "<i class='fa-solid fa-link'></i>Connect me"
      url: "https://learningextreme.com/about/"
 excerpt: >
-  My notes are for your referrence<br />
+  I’m stashing my references for your benefit, feel free to access and comment for correction<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
 feature_row:
   - image_path: /assets/images/homewireless.png
     alt: "wireless"
     title: "On the air"
-    excerpt: "Understand the wireless technolgy in a minute reading "
+    excerpt: "Wireless networks link devices via radio waves, but how they function is typically a mystery"
     url: "https://learningextreme.com/wireless"
     btn_class: "btn--primary"
     btn_label: "Wireless"
   - image_path: /assets/images/homewire.png
     alt: "wire"
     title: "Cast through the cord"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    excerpt: "Ethernet cables are used to send data from one device to another or across the Internet"
     url: "https://learningextreme.com/wire"
     btn_class: "btn--primary"
     btn_label: "Wire"
   - image_path: /assets/images/homewan.png
     alt: "wan"
     title: "Faraway access"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    excerpt: "Communication and access between a variety of networks is available, and security is a must"
     url: "https://learningextreme.com/wan"
     btn_class: "btn--primary"
     btn_label: "WAN"      
