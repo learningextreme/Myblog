@@ -4,6 +4,6 @@ title: ""
 permalink: /wire/
 comments: true
 author_profile: true
-category: wire
+taxonomy: wire
 entries_layout: # list (default), grid
 ---
