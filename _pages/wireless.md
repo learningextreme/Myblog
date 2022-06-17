@@ -1,9 +1,8 @@
 ---
 layout: categories
-title: "Wireless"
+title: ""
 permalink: /Wireless/
 comments: true
 author_profile: true
 category: Wireless
 ---
-Wireless testing
