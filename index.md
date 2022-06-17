@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/homebg.jpg
   actions:
-   - label: "<i class='fas fa-download'></i> Connect me"
+   - label: "<i class='fa-solid fa-link'></i>Connect me"
      url: "https://learningextreme.com/about/"
 excerpt: >
   My notes are for your referrence<br />
