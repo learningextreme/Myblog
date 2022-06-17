@@ -1,8 +1,9 @@
 ---
 layout: categories
 title: ""
-permalink: /Wire/
+permalink: /wire/
 comments: true
 author_profile: true
-category: Wire
+category: wire
+entries_layout: # list (default), grid
 ---

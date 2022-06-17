@@ -4,7 +4,7 @@ date:   2022-06-15
 layout: single
 author_profile: true
 comments: true
-category: Wire
+category: wire
 ---
 
 
