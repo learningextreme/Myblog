@@ -13,5 +13,5 @@ sidebar:
     text: ""
     nav: my-sidebar
 classes: wide
-permalink: /wireless/
+permalink: https://learningextreme.com/wireless
 ---

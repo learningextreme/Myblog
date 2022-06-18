@@ -9,7 +9,7 @@ author:
   avatar   : "/assets/images/bio-photo.jpg"
 
 sidebar:
-  - title: "123"
+  - title: ""
     
     text: ""
     nav: my-sidebar
