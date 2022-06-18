@@ -2,7 +2,7 @@
 title:  "Transmit Beamforming TxBF"
 date:   2022-06-15
 layout: single
-author_profile: true
+author_profile: false
 comments: true
 category: wireless
 ---
