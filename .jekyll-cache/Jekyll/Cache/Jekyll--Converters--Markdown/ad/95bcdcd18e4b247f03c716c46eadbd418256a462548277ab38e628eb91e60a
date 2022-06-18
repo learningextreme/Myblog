@@ -1,0 +1,3 @@
+I"*<h2 id="ospf-loop">OSPF Loop</h2>
+<p class="text-justify">Loop occurrence is a common issue at Layer two and three. Let us focus on layer three in this article. Routing loops can get identified when we try to ping the destination by receiving the ICMP message, “packet expired in transit”.</p>
+:ET
