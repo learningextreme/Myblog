@@ -10,9 +10,9 @@ author:
   avatar   : "/assets/images/wirelessavat.png"
 
 sidebar:
-  - title: ""
+  - title: "ABCDEFGH"
     
-    text: ""
+    text: "ABCDEFGHI"
     nav: my-sidebar
 classes: wide
 ---

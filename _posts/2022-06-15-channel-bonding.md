@@ -5,6 +5,16 @@ layout: single
 author_profile: true
 comments: true
 category: wireless
+author:
+  name     : "Wireless"
+  avatar   : "/assets/images/wirelessavat.png"
+
+sidebar:
+  - title: ""
+    
+    text: ""
+    nav: my-sidebar
+classes: wide
 ---
 
 
