@@ -2,6 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
+classes: wide
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/homebg.jpg
@@ -33,13 +34,13 @@ feature_row:
     url: "https://learningextreme.com/wan"
     btn_class: "btn--primary"
     btn_label: "WAN"      
-# - image_path: /assets/images/mm-free-feature.png
-#   alt: "100% free"
-#   title: "100% free"
-#   excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-#   url: "https://learningextreme.com/dc"
-#   btn_class: "btn--primary"
-#   btn_label: "Data Center"    
+ - image_path: /assets/images/homewan.png
+    alt: "wan1"
+    title: "Faraway access1"
+    excerpt: "Communication and access between a variety of networks is available, and security is a must"
+    url: "https://learningextreme.com/wan"
+    btn_class: "btn--primary"
+    btn_label: "WAN1"        
 ---
 
 {% include feature_row %}
