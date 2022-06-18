@@ -7,8 +7,8 @@ author_profile: true
 taxonomy: wireless
 entries_layout: # list (default), grid
 author:
-  name     : ""
-  avatar   : ""
+  name     : "Karthikeyan Palani"
+  avatar   : "/assets/images/bio-photo.jpg"
 
 sidebar:
   - title: ""
