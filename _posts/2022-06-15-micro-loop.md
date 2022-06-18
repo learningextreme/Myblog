@@ -10,7 +10,7 @@ toc_label: "OSPF Loop"
 toc_icon: "heart"
 ---
 
-
+## OSPF Loop
 Loop occurrence is a common issue at Layer two and three. Let us focus on layer three in this article. Routing loops can get identified when we try to ping the destination by receiving the ICMP message, “packet expired in transit”.
 {: .text-justify}
 
@@ -24,6 +24,7 @@ The router “RD” has a forwarding entry point to the neighbor router “RC”
 The duration of this problem may depend on the protocol that is in use. RIP will rip us into two and, OSPF will tackle by itself with its intelligence. The concern while the problem is surfacing what happened to the sensitive data. How it occurs in the OSPF, let’s take this topology.
 {: .text-justify}
 
+## Topology
 Topology explanation:
 
 ![Topology]({{ site.url }}{{ site.baseurl }}/assets/images/ospf.png){: .align-center}
@@ -31,6 +32,7 @@ Topology explanation:
 Five routers connected each other in the topology; the green dotted circles illustrate the actual route path; the blue dotted circle shows an alternate route path in case of link/router has broken.
 {: .text-justify}
 
+## Device Connectivity
 It means, “RA” -> “RB”, “RB” -> “RC”, “RC” -> “RD”, “RD” -> “RE”, and “RE” -> “RA”.
 {: .text-justify}
 
