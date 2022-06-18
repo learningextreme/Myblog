@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 comments: true
 category: wireless
+
 author:
   name     : ""
   avatar   : ""

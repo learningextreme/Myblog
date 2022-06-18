@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 comments: true
 category: wire
+
 author:
   name     : ""
   avatar   : ""
