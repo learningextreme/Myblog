@@ -15,7 +15,6 @@ sidebar:
     text: ""
     nav: my-sidebar
 classes: wide
-permalink: /wireless/
 ---
 
 
