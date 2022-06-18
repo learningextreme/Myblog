@@ -5,17 +5,6 @@ layout: single
 author_profile: true
 comments: true
 category: wireless
-
-author:
-  name     : ""
-  avatar   : ""
-
-sidebar:
-  - title: ""
-    
-    text: ""
-    nav: my-sidebar
-classes: wide
 ---
 
 
