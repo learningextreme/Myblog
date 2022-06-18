@@ -5,6 +5,16 @@ layout: single
 author_profile: true
 comments: true
 category: wire
+author:
+  name     : "Karthikeyan Palani"
+  avatar   : "/assets/images/bio-photo.jpg"
+
+sidebar:
+  - title: ""
+    
+    text: ""
+    nav: my-sidebar
+classes: wide
 ---
 
 
