@@ -28,4 +28,16 @@ var store = [{
         "tags": [],
         "url": "/datacenter/spb/",
         "teaser": null
+      },{
+        "title": "EVPN",
+        "excerpt":"Testing text  ","categories": ["datacenter"],
+        "tags": ["vxlan","evpn"],
+        "url": "/datacenter/evpn/",
+        "teaser": null
+      },{
+        "title": "vXLAN",
+        "excerpt":"`   ","categories": ["datacenter"],
+        "tags": [],
+        "url": "/datacenter/vxlan/",
+        "teaser": null
       }]
