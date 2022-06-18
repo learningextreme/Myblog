@@ -6,7 +6,6 @@ comments: true
 author_profile: true
 taxonomy: wireless
 entries_layout: # list (default), grid
-
 author:
   name     : ""
   avatar   : ""
