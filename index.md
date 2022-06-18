@@ -32,14 +32,7 @@ feature_row:
     excerpt: "Communication and access between a variety of networks is available, and security is a must"
     url: "https://learningextreme.com/wan"
     btn_class: "btn--primary"
-    btn_label: "WAN"      
- - image_path: /assets/images/homewan.png
-    alt: "wan1"
-    title: "Faraway access1"
-    excerpt: "Communication and access between a variety of networks is available, and security is a must"
-    url: "https://learningextreme.com/wan"
-    btn_class: "btn--primary"
-    btn_label: "WAN1"        
+    btn_label: "WAN"       
 ---
 
 {% include feature_row %}
