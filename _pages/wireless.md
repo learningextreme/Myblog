@@ -7,9 +7,9 @@ author_profile: true
 taxonomy: wireless
 entries_layout: # list (default), grid
 author:
-  name     : "Karthikeyan Palani"
-  avatar   : "/assets/images/bio-photo.jpg"
-  
+  name     : "Wireless"
+  avatar   : "/assets/images/wirlessava.png"
+
 sidebar:
   - title: ""
     
