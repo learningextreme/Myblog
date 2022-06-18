@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
-classes: wide
+class: wide
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/homebg.jpg
