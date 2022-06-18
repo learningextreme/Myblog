@@ -6,13 +6,13 @@ author_profile: true
 comments: true
 category: wireless
 author:
-  name     : "Wireless"
-  avatar   : "/assets/images/wirelessavat.png"
+  name     : ""
+  avatar   : ""
 
 sidebar:
-  - title: "ABCDEFGH"
+  - title: ""
     
-    text: "ABCDEFGHI"
+    text: ""
     nav: my-sidebar
 classes: wide
 ---

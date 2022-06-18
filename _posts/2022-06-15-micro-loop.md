@@ -5,6 +5,16 @@ layout: single
 author_profile: true
 comments: true
 category: wire
+author:
+  name     : ""
+  avatar   : ""
+
+sidebar:
+  - title: ""
+    
+    text: ""
+    nav: my-sidebar
+classes: wide
 ---
 
 
