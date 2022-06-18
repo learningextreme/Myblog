@@ -8,9 +8,9 @@ taxonomy: wireless
 entries_layout: # list (default), grid
 
 sidebar:
-  - title: ""
+  - title: "123"
     
-    text: ""
+    text: "ABC"
     nav: my-sidebar
 classes: wide
 permalink: https://learningextreme.com/wireless
