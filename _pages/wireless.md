@@ -8,7 +8,7 @@ taxonomy: wireless
 entries_layout: # list (default), grid
 author:
   name     : "Wireless"
-  avatar   : "/assets/images/wirlessava.png"
+  avatar   : "/assets/images/wirelessava.png"
 
 sidebar:
   - title: ""
