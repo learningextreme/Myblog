@@ -19,7 +19,7 @@ permalink: /about/
 
 ![me]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg){: .align-right}
 
-Welcome to my realm!!!
+Welcome to my realm!
 <br>
 <br>
 In May 2003, I received my Master of Computer Application from the University of Chennai. Programming was challenging for me. To remain in IT, I opted to take a detour via Hardware and Networking. Now that programming is necessary, I have learned Python, which is very basic for automation. Now I'm learning Git to post all my notes and references. In addition, I'm stashing my works on this site for my wireless expert-level certification. With the hope that it will benefit anybody who wanders across my website.
