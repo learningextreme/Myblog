@@ -6,6 +6,7 @@ author_profile: false
 comments: true
 category: wireless
 tags: beamforming
+classes: wide
 ---
 
 
