@@ -32,7 +32,7 @@ feature_row:
     excerpt: "Communication and access between a variety of networks is available, and security is a must"
     url: "https://learningextreme.com/wan"
     btn_class: "btn--primary"
-    btn_label: "WAN"       
+    btn_label: "WAN"        
 ---
 
 {% include feature_row %}
