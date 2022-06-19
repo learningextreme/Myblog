@@ -6,6 +6,15 @@ author_profile: false
 comments: true
 category: wireless
 classes: wide
+
+excerpt: "This post should [...]"
+header:
+  overlay_image: /assets/images/6GHz-US.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**5G Technologyworld**](https://www.5gtechnologyworld.com/)"
+  actions:
+    - label: "More Info"
+      url: "https://www.5gtechnologyworld.com/new-regulations-for-unlicensed-6-ghz-operation-explained/#:~:text=On%20April%2023%202020%2C%20the,of%20spectrum%20to%20unlicensed%20devices"
 ---
 
 
