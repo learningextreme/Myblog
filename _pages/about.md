@@ -17,7 +17,7 @@ classes: wide
 permalink: /about/
 ---
 
-![me]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg){: .align-centre}
+![me]({{ site.url }}{{ site.baseurl }}/assets/images/me.jpg){: .align-right}
 
 Welcome to my realm!
 <br>
