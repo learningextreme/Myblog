@@ -6,7 +6,7 @@ author_profile: false
 comments: true
 category: wire
 toc: true
-toc_label: "OSPF Loop"
+toc_label: "OSPF Micro-Loop"
 toc_icon: "heart"
 ---
 
