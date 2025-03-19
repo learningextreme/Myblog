@@ -28,7 +28,7 @@ feature_row:
     btn_label: "Wire"
   - image_path: /assets/images/homewan.png
     alt: "wan"
-    title: "Faraway access"
+    title: "Far-away access"
     excerpt: "Communication and access between a variety of networks is available, and security is a must"
     url: "https://learningextreme.com/wan"
     btn_class: "btn--primary"
