@@ -114,7 +114,7 @@ author:
   links:
     - label: "Resume"
       icon: "far fa-fw fa-file-pdf"
-      url: "/assets/files/my-resume.pdf"
+      url: "/assets/files/my resume.pdf"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
