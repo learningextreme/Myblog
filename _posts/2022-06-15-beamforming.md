@@ -4,6 +4,7 @@ date:   2022-06-15
 layout: single
 author_profile: false
 category: wireless
+comment: false
 tags: beamforming
 classes: wide
 ---

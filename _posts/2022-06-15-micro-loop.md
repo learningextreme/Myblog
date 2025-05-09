@@ -4,6 +4,7 @@ date:   2022-06-15
 layout: single
 author_profile: false
 category: wire
+comment: false
 toc: true
 toc_label: "OSPF Micro-Loop"
 toc_icon: "heart"
