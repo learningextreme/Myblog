@@ -4,7 +4,7 @@ date:   2022-06-15
 layout: single
 author_profile: false
 category: wireless
-comment: false
+comments: false
 classes: wide
 
 excerpt: "Benefit and usage of channel bonding why, where,  and what for it is required"
