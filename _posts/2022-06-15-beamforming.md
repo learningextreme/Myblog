@@ -7,9 +7,6 @@ comments: true
 category: wireless
 tags: beamforming
 classes: wide
-toc: true
-toc_label: "Beamforming"
-toc_icon: "heart"
 ---
 
 
