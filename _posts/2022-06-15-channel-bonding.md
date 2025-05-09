@@ -3,7 +3,6 @@ title:  "Channel Bonding"
 date:   2022-06-15
 layout: single
 author_profile: false
-comments: true
 category: wireless
 classes: wide
 
