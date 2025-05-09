@@ -34,3 +34,5 @@ gem "sdbm", "~> 1.0"
 gem "net-telnet", "~> 0.2.0"
 
 gem "xmlrpc", "~> 0.3.2"
+
+gem "jekyll-toc"
