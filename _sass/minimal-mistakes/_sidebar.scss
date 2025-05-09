@@ -108,7 +108,7 @@
 .splash .sidebar__right {
   @include breakpoint($large) {
     position: relative;
-    float: right;
+    float: left;
     margin-right: 0;
   }
 
