@@ -80,6 +80,12 @@ yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
+Whatsapp:
+  phone_number           : # e.g. "+14155552671"
+  message                : # e.g. "Check out this awesome site!"
+  image                  : # e.g. "/assets/images/whatsapp.png"
+  title                  : # e.g. "My Site Title"
+  description            : # e.g. "My Site Description"
 twitter:
   username               :
 linkedin:
