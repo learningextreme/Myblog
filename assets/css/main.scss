@@ -10,13 +10,6 @@ search: false
 
 .page {
     @include breakpoint($large) {
-        padding-right: 0;
-    }
-
-    @include breakpoint($x-large) {
-        padding-right: 0;
-    }
-    @include breakpoint($large) {
         padding-left: 0;
     }
 
