@@ -16,4 +16,11 @@ search: false
     @include breakpoint($x-large) {
         padding-right: 0;
     }
+    @include breakpoint($large) {
+        padding-left: 0;
+    }
+
+    @include breakpoint($x-large) {
+        padding-left: 0;
+    }
 }
