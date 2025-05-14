@@ -1,3 +1,16 @@
+---
+title:  "IS-IS Route Leak"
+date:   2025-03-19
+layout: single
+author_profile: false
+category: wire
+comments: false
+toc: true
+toc_sticky: false
+---
+
+
+
 To configure a route leaking on an IS-IS network:
 Configure the route leak on the L1/L2 routers:
 An L1/L2 router, when connected to an L1 router, transmits solely L1 updates. Configure route leaking between the L1 and L2 routers using policies and export functions to allow the L1 router to learn specific routes from the L2 router.
