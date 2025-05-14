@@ -5,7 +5,6 @@ layout: single
 author_profile: false
 category: wireless
 comments: false
-classes: wide
 toc: true
 toc_label: "Ch Bonding"
 toc_icon: "heart"
