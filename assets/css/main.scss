@@ -21,7 +21,6 @@ search: false
   transition: transform 0.3s ease; /* Smooth transition for the effect */
   cursor: pointer; /* Indicate that the image is clickable */
 }
-
 .image-container img:hover {
   transform: scale(0.8); /* Reduce the image size by 20% on hover */
 }
