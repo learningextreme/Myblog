@@ -5,10 +5,6 @@ layout: single
 author_profile: false
 category: wireless
 comments: false
-toc: true
-toc_label: "Ch Bonding"
-toc_icon: "heart"
-toc_sticky: false
 
 excerpt: "Benefit and usage of channel bonding why, where,  and what for it is required"
 header:

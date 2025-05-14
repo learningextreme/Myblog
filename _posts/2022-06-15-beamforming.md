@@ -6,10 +6,6 @@ author_profile: false
 category: wireless
 comments: false
 tags: beamforming
-toc: true
-toc_label: "TxBF"
-toc_icon: "heart"
-toc_sticky: false
 ---
 
 
