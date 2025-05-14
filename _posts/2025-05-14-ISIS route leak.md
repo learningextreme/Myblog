@@ -7,7 +7,7 @@ category: wire
 comments: false
 toc: true
 toc_label: "IS-IS"
-toc_sticky: false
+toc_sticky: true
 ---
 
 To configure a route leaking on an IS-IS network:
