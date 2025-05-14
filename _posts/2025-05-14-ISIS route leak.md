@@ -33,7 +33,7 @@ In our topology:
 
 ·      R4, R5, and R6 are in area 49.0002.0000.0000.0000.00
 
-·      R2, R3, R4, and R5 are L1/L2 routers
+·      R2, R3, R4, and R5 are L1/L2 routers.
 
 ·      R1 and R6 are configured as L1 routers.
 
