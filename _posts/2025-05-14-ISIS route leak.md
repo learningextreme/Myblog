@@ -27,16 +27,12 @@ set policy-options policy-statement RTLeak term 1 to level 1
 set policy-options policy-statement RTLeak term 1 then accept
 set protocols isis export RTLeak
 ```
+
 In our topology:
-
 - R1, R2, and R3 are in area 49.0001.0000.0000.0000.00
-
 - R4, R5, and R6 are in area 49.0002.0000.0000.0000.00
-
 - R2, R3, R4, and R5 are L1/L2 routers.
-
 - R1 and R6 are configured as L1 routers.
-
 
 R1’s routing table will not include the 6.6.6.6 route. To enable R1 to learn route to 6.6.6.6 network specifically, configure the route leak on R2 using the aforementioned commands.
 {: .text-justify}
