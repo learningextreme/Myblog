@@ -8,7 +8,7 @@ comments: false
 toc: true
 toc_label: "OSPF Micro-Loop"
 toc_icon: "heart"
-toc_sticky: false
+toc_sticky: true
 ---
 
 ## OSPF Loop
