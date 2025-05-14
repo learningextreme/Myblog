@@ -5,7 +5,8 @@ layout: single
 author_profile: false
 category: wire
 comments: false
-toc: false
+toc: true
+toc_label: "IS-IS"
 toc_sticky: false
 ---
 

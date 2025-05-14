@@ -7,6 +7,10 @@ category: wireless
 comments: false
 tags: beamforming
 classes: wide
+toc: true
+toc_label: "TxBF"
+toc_icon: "heart"
+toc_sticky: false
 ---
 
 
