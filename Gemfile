@@ -15,7 +15,7 @@ source "https://rubygems.org"
 
 gem "jekyll" 
 gem "minimal-mistakes-jekyll"
-gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
+
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
