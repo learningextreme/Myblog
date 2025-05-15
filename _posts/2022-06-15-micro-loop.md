@@ -18,7 +18,7 @@ Loop occurrence is a common issue at Layer two and three. Let us focus on layer 
 Let’s have a simple topology to understand it better.
 
 <p align="center">
-  [![click me to zoom](/assets/images/ospf.png) ](/assets/images/ospf.png)
+  [![click me to zoom](/assets/images/ospf.png)](/assets/images/ospf.png)
 </p>
 
 
@@ -31,8 +31,7 @@ The duration of this problem may depend on the protocol that is in use. RIP will
 ## Topology
 Topology explanation:
 
-[![click me to zoom](/assets/images/ospf.png) ](/assets/images/ospf.png)
-{: .align-center}
+[![click me to zoom](/assets/images/ospf.png)](/assets/images/ospf.png){: .align-center}
 
 
 Five routers connected each other in the topology; the green dotted circles illustrate the actual route path; the blue dotted circle shows an alternate route path in case of link/router has broken.
