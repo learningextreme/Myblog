@@ -17,7 +17,7 @@ Loop occurrence is a common issue at Layer two and three. Let us focus on layer 
 
 Let’s have a simple topology to understand it better.
 
-[ ![click me to zoom](/assets/images/neighbor.png) ](/assets/images/neighbor.png){: .align-center}
+<p align="center">[![click me to zoom](/assets/images/neighbor.png) ](/assets/images/neighbor.png)</p>
 
 The router “RD” has a forwarding entry point to the neighbor router “RC” to reach the segment “Y”, presume that “RC” lost the connectivity to segment “Y”, which is on in it. However, there is an update coming from “RD” (the entire route database), “RC” sees that there is the path to reach the segment “Y” through the neighbor router “RD”; therefore, “RC” will update its routing table accordingly. “RD” had learnt this update from “RC” in the earlier route exchange process. Let’s see the issue here, A datagram coming from the Segment “X” to “Y” has to go through “RD” and “RC”. Hence, “RD” will forward the datagram to “RC”. “RC” will send it back to “RD” because “RC” believes the segment “Y” can be reachable through the neighbor “RD” it goes on and on until the TTL expires.
 {: .text-justify}
@@ -28,7 +28,7 @@ The duration of this problem may depend on the protocol that is in use. RIP will
 ## Topology
 Topology explanation:
 
-[ ![click me to zoom](/assets/images/ospf.png) ](/assets/images/ospf.png)
+[![click me to zoom](/assets/images/ospf.png) ](/assets/images/ospf.png)
 {: .align-center}
 
 
