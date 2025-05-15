@@ -19,6 +19,8 @@ An L1/L2 router, when connected to an L1 router, transmits solely L1 updates. Co
 
 <img src="/assets/images/ISIS Route Leak.png" alt="ISIS topology" style="border: 2px solid black; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);"> 
 
+[ ![](sassets/images/ISIS Route Leak.png) ](/assets/images/ISIS Route Leak.png)
+
 ```
 set policy-options policy-statement RTLeak term 1 from protocols isis
 set policy-options policy-statement RTLeak term 1 from level 2
