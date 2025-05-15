@@ -17,7 +17,7 @@ Configure the route leak on the L1/L2 routers:
 An L1/L2 router, when connected to an L1 router, transmits solely L1 updates. Configure route leaking between the L1 and L2 routers using policies and export functions to allow the L1 router to learn specific routes from the L2 router.
 {: .text-justify}
 
-<img src="/assets/images/isis.png" alt="ISIS topology" style="border: 2px solid black; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);"> 
+<img src="/assets/images/ISIS Route Leak.png" alt="ISIS topology" style="border: 2px solid black; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);"> 
 
 ```
 set policy-options policy-statement RTLeak term 1 from protocols isis
