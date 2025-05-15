@@ -30,7 +30,7 @@ set protocols isis export RTLeak
 ```
 
 In our topology:
-- R1, R2, and R3 are in area 49.0001.0000.0000.0000.00 (circled in <span style="color:greene">some *blue* text</span>.)
+- R1, R2, and R3 are in area 49.0001.0000.0000.0000.00 (circled in <span style="color:green">Green</span>.)
 - R4, R5, and R6 are in area 49.0002.0000.0000.0000.00 (circled in Red)
 - R2, R3, R4, and R5 are L1/L2 routers.
 - R1 and R6 are configured as L1 routers.
