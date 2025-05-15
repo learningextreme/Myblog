@@ -18,7 +18,7 @@ Loop occurrence is a common issue at Layer two and three. Let us focus on layer 
 Let’s have a simple topology to understand it better.
 
 <p align="center">
-  [![click me to zoom](/assets/images/ospf.png)](/assets/images/ospf.png)
+  [![click me to zoom](/assets/images/neighbor.png)](/assets/images/neighbor.png)
 </p>
 
 
