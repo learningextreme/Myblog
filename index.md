@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/homebg.jpg
+  overlay_image: /assets/images/homebg.png
   actions:
    - label: "Connect"
      url: "https://learningextreme.com/about/"
