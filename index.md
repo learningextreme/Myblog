@@ -9,7 +9,7 @@ header:
    - label: "Connect"
      url: "https://learningextreme.com/about/"
 excerpt: >
-  I’m stashing my references for your benefit, feel free to access and comment for correction <span style="color:green">blue</span><br />
+   <span style="color:blue">I’m stashing my references for your benefit, feel free to access and comment for correction</span>
 #  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
 feature_row:
   - image_path: /assets/images/homewireless.png
