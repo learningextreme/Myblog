@@ -8,8 +8,6 @@ comments: false
 tags: beamforming
 ---
 
-
-
 <a id =toc>பொருள்டக்கம்</a>
 
 [toc]
