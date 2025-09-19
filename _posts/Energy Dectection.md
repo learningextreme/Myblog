@@ -1,5 +1,5 @@
 ---
-title:  "Energy DetectionF"
+title:  "Energy Detection"
 date:   2022-06-15
 layout: single
 author_profile: false
