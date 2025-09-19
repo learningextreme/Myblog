@@ -1,3 +1,13 @@
+---
+title:  "Sologam"
+date:   2022-06-15
+layout: single
+author_profile: false
+category: wireless
+comments: false
+tags: beamforming
+---
+
 
 
 <a id =toc>பொருள்டக்கம்</a>
